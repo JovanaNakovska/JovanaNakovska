@@ -1,0 +1,147 @@
+html{
+    background-color: lightpink;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:lightblue;
+    height:60px;
+    align-content: center;
+    align-items: center;
+text-shadow: 5px 0px 5px white;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin:30px;
+}
+#fluffy{
+   background: url("fluffy.jpg") no-repeat;
+    height:210px;
+    width:540px;
+    margin:40px;
+    margin-left:50px;
+    text-align:center;
+    padding-top:140px;
+    color:white;
+    font-size:50px;
+    font-weight: bold;
+    border: white 1px solid;
+    border-radius: 7px;
+    box-shadow:5px -5px 5px white;
+}
+#text{
+    border:white 1px solid;
+    height:210px;
+    width:540px;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+#redica{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:lightblue;
+    height:60px;
+    align-content: center;
+    align-items: center;
+    text-shadow: 5px 0px 5px white;
+    margin-top: 80px;
+}
+#maps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#mesto1,#mesto2{
+    width: 30%;
+    margin:20px;
+}
+h3{
+    border-bottom: white 1px solid;
+}
+#iframe{
+    border:white 1px solid;
+   height: 450px;
+}
+img{
+    margin-top: 18px;
+}
+#naslov h1{
+    border-bottom: 2px solid white;
+    margin-left:40px;
+    width: 300px;
+}
+#naslov h2{
+    border-bottom: 2px solid white;
+    padding-top: 40px;
+    width: 300px;
+}
+#hoby{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+#paragraph{
+    width:1000px;
+    border:white 1px solid;
+    margin-left: 150px;
+    padding: 30px;
+}
+#sliki{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+#sliki img{
+    border-radius: 10px;
+}
+ul li {
+    font-size: 30px;
+    list-style-type: square;
+    margin: 20px;
+}
+ul a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    margin: 100px;
+}
+#posleden{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#head{
+    text-align: center;
+    margin-top: 40px;
+}
+a:hover{
+    box-shadow: 10px 10px 5px white;
+    background-color:lightblue;
+    border-radius:10px;
+    padding: 10px;
+}
+#heart{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right:50px;
+    margin-top: -108px;
+}
